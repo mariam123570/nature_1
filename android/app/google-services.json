@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "455970770744",
+    "project_id": "nature-dd0d2",
+    "storage_bucket": "nature-dd0d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455970770744:android:f64c3dd1f5d309f8c9bbcd",
+        "android_client_info": {
+          "package_name": "com.example.nature"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz608y58sF86MTU-Cje8kAzVpPot3EOo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
