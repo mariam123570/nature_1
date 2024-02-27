@@ -4,8 +4,9 @@ import 'package:nature/modules/splash/splach_screen.dart';
 import 'package:nature/services/app/app_services.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await ApplicationServices.instance.launch();
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {

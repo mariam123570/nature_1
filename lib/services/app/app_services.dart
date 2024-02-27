@@ -15,7 +15,9 @@ class ApplicationServices {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
-    await CloudConnection.instance.initConnection();
+    print("Firebase Connected ✅✅✅✅✅✅✅✅✅✅");
+    // await CloudConnection.instance.initConnection();
     await LocalDatabase.instance.initDatabase();
+    print("Local Database Connected ✅✅✅✅✅✅✅✅✅✅");
   }
 }
